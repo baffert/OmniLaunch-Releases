@@ -1,9 +1,9 @@
 {
-    "version": "1.2.3",
-    "build": 33,
+    "version": "1.2.4",
+    "build": 34,
     "releaseDate": "2026-11-04",
-    "changelog": "OmniLaunch Gamer Edition v1.2.3 (Build 33) :\n- Moteur de streaming stdout direct zero-delai : suppression definitive des fichiers temporaires CSV et des blocages de pipe stderr.\n- Fin garantie du freeze 'Sync...' : bascule automatique transparente sur la telemetrie adaptative en cas de demarrage differe d'ETW.\n- Ciblage strict du processus 3D principal par PID sans conflit de nom.\n- Session PresentMon dediee (OmniLaunchFPS) avec prevention des collisions de traces.",
+    "changelog": "OmniLaunch Gamer Edition v1.2.4 (Build 34) :\n- Capture multi-processus 3D automatique : ciblage complet de tous les sous-processus graphiques (BeamNG.drive.x64, CEF UI, moteur physique) sans restriction par PID unique.\n- Streaming stdout direct sans fichier temporaire ni verrouillage de disque.\n- Bascule automatique instantanee vers le moteur adaptatif 60 FPS si l'accroche matérielle tarde.\n- Session exclusive OmniLaunchFPS avec auto-nettoyage de session.",
     "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "sha256": "CDD51790085414B30B9814F30AAFD2DCC1749EC8B759376155CB849D2310EE4C",
+    "sha256": "A138E5BA52FFAD0713000B11422FA80D81DC02F569F321B98314D4DE66A293CE",
     "mandatory": false
 }
