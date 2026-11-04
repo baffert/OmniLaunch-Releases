@@ -1,9 +1,9 @@
 {
-    "version": "1.2.1",
-    "build": 31,
+    "version": "1.2.2",
+    "build": 32,
     "releaseDate": "2026-11-04",
-    "changelog": "OmniLaunch Gamer Edition v1.2.1 (Build 31) :\n- Telemetrie FPS exacte : suppression du fallback 144 Hz fixe, synchronisation reelle aux microsecondes sur Intel PresentMon ETW pour tous les framerates (30, 60, 75, 90, 120, 144, 165, 240 FPS).\n- Maintien overlay plein ecran 64-bit : typage strict HWND_TOPMOST (-1) et SetWindowLongPtrW pour empecher le masquage par les jeux en plein ecran.\n- Recuperation dynamique PresentMon avec elevation automatique si acces refuse sans redemarrage requis.\n- Transition instantanee v1.2.1 detectee par toutes les versions precedentes (Build 25, 27, 28, 29, 30).",
+    "changelog": "OmniLaunch Gamer Edition v1.2.2 (Build 32) :\n- Activation matérielle ETW native : integration du manifeste Administrateur standard (uac-admin) garantissant le demarrage sans erreur d'Intel PresentMon pour capturer les FPS reels de tous les jeux.\n- Fin du blocage 'Sync...' : communication continue avec le pilote graphique sans interruption de session.\n- Script Lancer_OmniLaunch.bat dote de l'elevation automatique en 1 clic.\n- Maintien plein ecran topmost 64-bit et ciblage automatique du processus 3D principal.",
     "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "sha256": "E38D2DCC8B9CA006D7872355DCB88520D3D3206D48F5823ECAC1A3350153A9F1",
+    "sha256": "CD7090195DD6C8E0DB94F1845A3C168C9AD7E7E5AAA71AA352925CD436E17D1E",
     "mandatory": false
 }
