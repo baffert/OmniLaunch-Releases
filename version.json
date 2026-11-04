@@ -1,9 +1,9 @@
 {
-    "version": "1.2.2",
-    "build": 32,
+    "version": "1.2.3",
+    "build": 33,
     "releaseDate": "2026-11-04",
-    "changelog": "OmniLaunch Gamer Edition v1.2.2 (Build 32) :\n- Activation matérielle ETW native : integration du manifeste Administrateur standard (uac-admin) garantissant le demarrage sans erreur d'Intel PresentMon pour capturer les FPS reels de tous les jeux.\n- Fin du blocage 'Sync...' : communication continue avec le pilote graphique sans interruption de session.\n- Script Lancer_OmniLaunch.bat dote de l'elevation automatique en 1 clic.\n- Maintien plein ecran topmost 64-bit et ciblage automatique du processus 3D principal.",
+    "changelog": "OmniLaunch Gamer Edition v1.2.3 (Build 33) :\n- Moteur de streaming stdout direct zero-delai : suppression definitive des fichiers temporaires CSV et des blocages de pipe stderr.\n- Fin garantie du freeze 'Sync...' : bascule automatique transparente sur la telemetrie adaptative en cas de demarrage differe d'ETW.\n- Ciblage strict du processus 3D principal par PID sans conflit de nom.\n- Session PresentMon dediee (OmniLaunchFPS) avec prevention des collisions de traces.",
     "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "sha256": "CD7090195DD6C8E0DB94F1845A3C168C9AD7E7E5AAA71AA352925CD436E17D1E",
+    "sha256": "CDD51790085414B30B9814F30AAFD2DCC1749EC8B759376155CB849D2310EE4C",
     "mandatory": false
 }
