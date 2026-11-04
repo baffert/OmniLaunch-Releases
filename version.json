@@ -1,9 +1,9 @@
 {
-    "version": "1.1.0",
-    "build": 10,
+    "version": "1.2.0",
+    "build": 20,
     "releaseDate": "2026-11-04",
-    "changelog": "OmniLaunch Gamer Edition v1.1.0 :\n- Grille virtualis\u00e9e haute performance \u00e0 60 FPS (moteur QListView / QStyledItemDelegate).\n- Chargement et filtrage instantan\u00e9s des collections de 1 000+ jeux (< 50 ms).\n- Jaquettes HD \u00e9clatantes et naturelles (retrait des masques sombres agressifs).\n- Effet de survol n\u00e9on cyan avec bouton de lancement rapide Jouer sans obstruction.\n- Ruban de filtres dynamique sans troncature de texte.\n- Syst\u00e8me d'Auto-Updater GitHub int\u00e9gr\u00e9 avec v\u00e9rification cryptographique SHA-256.",
+    "changelog": "OmniLaunch Gamer Edition v1.2.0 :\n- Compteur de FPS et Frametime (ms) en jeu haute précision avec technologie officielle Intel PresentMon (ETW) & DWM.\n- 100% Anti-Cheat Safe (EAC, BattlEye, Vanguard, Ricochet).\n- Overlay HUD Gamer transparent, click-through (aucune perte de focus ni gêne de visée en jeu).\n- Nouveaux réglages dans Paramètres : activation, sélection de la position sur écran (4 coins), affichage du frametime et des métriques CPU/RAM du jeu.\n- Bouton d aperçu direct de l Overlay dans les Paramètres.\n- Optimisations de fluidité et compilation autonome.",
     "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "sha256": "890B9BD15A48DD6E1405E1C645412F18885AAE0089C92F81337AAD507898013D",
+    "sha256": "D1588E779E62B06A2617C43AD90745D5630FF9EBE0839CB6C0F4B880FC86BE75",
     "mandatory": false
 }
