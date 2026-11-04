@@ -1,9 +1,9 @@
 {
-    "version": "1.2.6",
-    "build": 36,
+    "version": "1.2.7",
+    "build": 37,
     "releaseDate": "2026-11-04",
-    "changelog": "OmniLaunch Gamer Edition v1.2.6 (Build 36) :\n- Moteur PresentMon universel (ETW) : reactivitation du suivi GPU DXGI (suppression de --no_track_gpu qui coupait les presents DirectX 11/12/Unity).\n- Compatibilite totale tous jeux : accrochage automatique sans restriction de nom de processus, filtrage des processus systemes et auto-resolution du jeu actif.\n- Maintien renforce plein ecran : positionnement direct sur toute la geometrie de l'ecran (geom.geometry) sans decalage barre des taches.\n- Streaming stdout direct sans buffering.",
+    "changelog": "OmniLaunch Gamer Edition v1.2.7 (Build 37) :\n- Remplacement streaming stdout PresentMon par tailing de fichier CSV partage (elimination totale des blocages de pipe Windows MSVCRT).\n- Delta CPU reel en continu (persistance du handle processus psutil au lieu de 0%).\n- Fin des valeurs figees : affichage dynamique continu des FPS et millisecondes de trame.\n- Suppression des restrictions de processus et ciblage universel zero-delai.",
     "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "sha256": "7C78B7E65948B51C9ACF285EFB03296E2DE17F1096F5FC4BF5FFA6A165EC3738",
+    "sha256": "CE2D6BBDF115DA04C124AC6BB459B714180325DF257BB314295A14B1A5C4D1CB",
     "mandatory": false
 }
