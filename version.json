@@ -1,9 +1,8 @@
 {
-    "version": "1.2.7",
-    "build": 37,
-    "releaseDate": "2026-11-04",
-    "changelog": "OmniLaunch Gamer Edition v1.2.7 (Build 37) :\n- Remplacement streaming stdout PresentMon par tailing de fichier CSV partage (elimination totale des blocages de pipe Windows MSVCRT).\n- Delta CPU reel en continu (persistance du handle processus psutil au lieu de 0%).\n- Fin des valeurs figees : affichage dynamique continu des FPS et millisecondes de trame.\n- Suppression des restrictions de processus et ciblage universel zero-delai.",
-    "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "sha256": "CE2D6BBDF115DA04C124AC6BB459B714180325DF257BB314295A14B1A5C4D1CB",
-    "mandatory": false
+  "version": "1.2.7",
+  "build": 38,
+  "release_date": "2026-11-04",
+  "download_url": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/Distribution_MisesAJour/OmniLaunch.zip",
+  "sha256": "87E05F7067B03146E603BB8F9E47C082EA3BA18F2CC562AEF045F450215E8222",
+  "changelog": "Build 38: Moteur universel de capture FPS ETW avec synchronisation en temps réel sans blocage, auto-verrouillage automatique sur le moteur 3D DirectX/Vulkan réel (résolution multi-processus comme BeamNG.drive), et affichage dynamique de l'utilisation CPU et RAM."
 }
