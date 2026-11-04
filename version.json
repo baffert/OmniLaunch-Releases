@@ -1,9 +1,9 @@
 {
     "version": "1.2.0",
-    "build": 28,
+    "build": 29,
     "releaseDate": "2026-11-04",
-    "changelog": "OmniLaunch Gamer Edition v1.2.0 (Build 28) :\n- Compteur de FPS instantane et infaillible : suppression des arguments d execution obsoletes de PresentMon et fallback temps reel (DWM/Ecran) a 0 ms.\n- Overlay HUD Gamer renforce : re-assertion topmost HWND_TOPMOST avec SWP_SHOWWINDOW toutes les 250 ms pour rester visible sur les jeux plein ecran sans bordure.\n- Moteur de mise a jour atomique Robocopy ultra-fiable et persistance 100% des sauvegardes/jaquettes.",
+    "changelog": "OmniLaunch Gamer Edition v1.2.0 (Build 29) :\n- Resolution dynamique du processus de jeu 3D : selection automatique du processus reel par utilisation RAM (16 Go vs launcher 58 Mo).\n- Compteur de FPS de precision microseconde avec affichage du tag moteur (ETW vs DWM).\n- Script 1-clic d autorisation materielle Intel PresentMon sans invite UAC.\n- Double source API GitHub temps reel pour des mises a jour instantanees sans latence CDN.",
     "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "sha256": "F9C274C8606138F684FB5AFE154F50335ECDD6EAAF9BA8E03D1D914A7D804B5A",
+    "sha256": "D6D58F26C9EFAD337F9EA82882769F674D844DB5F12ED44C163005938848D24F",
     "mandatory": false
 }
