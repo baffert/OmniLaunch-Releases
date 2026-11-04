@@ -1,9 +1,9 @@
 {
-    "version": "1.2.5",
-    "build": 35,
+    "version": "1.2.6",
+    "build": 36,
     "releaseDate": "2026-11-04",
-    "changelog": "OmniLaunch Gamer Edition v1.2.5 (Build 35) :\n- Fix complet capture FPS PresentMon (ETW) : suppression des options bloquantes (--no_track_display, --v1_metrics, --terminate_on_proc_exit) et streaming unbuffered zero-delai.\n- Auto-verrouillage sur le processus 3D principal (par ex. BeamNG.drive.x64.exe a 5 Go de RAM plutot que le lanceur 58 Mo).\n- Detection automatique continue des jeux deja lances en arriere-plan sans besoin de relancer.\n- Maintien renforce de l'overlay au premier plan en plein ecran sans masquage par DWM (BypassWindowManagerHint + BringWindowToTop).",
+    "changelog": "OmniLaunch Gamer Edition v1.2.6 (Build 36) :\n- Moteur PresentMon universel (ETW) : reactivitation du suivi GPU DXGI (suppression de --no_track_gpu qui coupait les presents DirectX 11/12/Unity).\n- Compatibilite totale tous jeux : accrochage automatique sans restriction de nom de processus, filtrage des processus systemes et auto-resolution du jeu actif.\n- Maintien renforce plein ecran : positionnement direct sur toute la geometrie de l'ecran (geom.geometry) sans decalage barre des taches.\n- Streaming stdout direct sans buffering.",
     "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "sha256": "1FB11FE678B863755F159F0652F1CF6E8DFA7318AC83E104D64F5126074ACA56",
+    "sha256": "7C78B7E65948B51C9ACF285EFB03296E2DE17F1096F5FC4BF5FFA6A165EC3738",
     "mandatory": false
 }
