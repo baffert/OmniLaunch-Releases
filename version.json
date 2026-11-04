@@ -1,9 +1,9 @@
 {
     "version": "1.2.0",
-    "build": 26,
+    "build": 27,
     "releaseDate": "2026-11-04",
-    "changelog": "OmniLaunch Gamer Edition v1.2.0 (Build 26) :\n- Test de deploiement de la mise a jour par Build en direct !\n- Verification du moteur de redemarrage et d extraction atomique.\n- Compteur FPS PresentMon ETW et jaquettes HD 100%.",
+    "changelog": "OmniLaunch Gamer Edition v1.2.0 (Build 27) :\n- Moteur de mise a jour atomique haute fiabilite : redemarrage sans processus orphelin.\n- Comparateur dynamique par numero de Build pour des deploiements instantanes.\n- Anti-cache CDN GitHub avec horodatage temps reel.\n- Compteur de FPS PresentMon ETW et jaquettes HD 100% sans perte de donnees.",
     "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "sha256": "565B72061DEF0CF306747F37716EABD35070F2BCF739F4FFF760250A84A8A883",
+    "sha256": "F9BE033F7C3C3787A578F32E6F58328CF37A26FDF92C59D6F40F375BCC186D0E",
     "mandatory": false
 }
