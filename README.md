@@ -41,7 +41,7 @@
 | Version | Type | Fichier | Taille | Hash SHA-256 |
 | :--- | :--- | :--- | :--- | :--- |
 | **v1.2.0** | 📦 **Installateur 1-Clic** | [`OmniLaunch_v1.2.0_Installateur.zip`](https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch_v1.2.0_Installateur.zip) | ~39.9 Mo | `Voir version.json` |
-| **v1.2.0** | ⚡ **Archive Portable** | [`OmniLaunch.zip`](https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip) | ~39.8 Mo | `D1588E779E62B06A2617C43AD90745D5630FF9EBE0839CB6C0F4B880FC86BE75` |
+| **v1.2.0** | ⚡ **Archive Portable** | [`OmniLaunch.zip`](https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip) | ~40 Mo | `15B5C6F06C047469FADABB78EAE8A740111F89F6EC8B536D4D19AE8515C92CF1` |
 
 ---
 
