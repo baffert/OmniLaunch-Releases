@@ -1,9 +1,9 @@
 {
-    "version": "1.2.4",
-    "build": 34,
+    "version": "1.2.5",
+    "build": 35,
     "releaseDate": "2026-11-04",
-    "changelog": "OmniLaunch Gamer Edition v1.2.4 (Build 34) :\n- Capture multi-processus 3D automatique : ciblage complet de tous les sous-processus graphiques (BeamNG.drive.x64, CEF UI, moteur physique) sans restriction par PID unique.\n- Streaming stdout direct sans fichier temporaire ni verrouillage de disque.\n- Bascule automatique instantanee vers le moteur adaptatif 60 FPS si l'accroche matérielle tarde.\n- Session exclusive OmniLaunchFPS avec auto-nettoyage de session.",
+    "changelog": "OmniLaunch Gamer Edition v1.2.5 (Build 35) :\n- Fix complet capture FPS PresentMon (ETW) : suppression des options bloquantes (--no_track_display, --v1_metrics, --terminate_on_proc_exit) et streaming unbuffered zero-delai.\n- Auto-verrouillage sur le processus 3D principal (par ex. BeamNG.drive.x64.exe a 5 Go de RAM plutot que le lanceur 58 Mo).\n- Detection automatique continue des jeux deja lances en arriere-plan sans besoin de relancer.\n- Maintien renforce de l'overlay au premier plan en plein ecran sans masquage par DWM (BypassWindowManagerHint + BringWindowToTop).",
     "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "sha256": "A138E5BA52FFAD0713000B11422FA80D81DC02F569F321B98314D4DE66A293CE",
+    "sha256": "1FB11FE678B863755F159F0652F1CF6E8DFA7318AC83E104D64F5126074ACA56",
     "mandatory": false
 }
