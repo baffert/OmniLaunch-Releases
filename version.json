@@ -1,9 +1,9 @@
 {
-    "version": "1.2.0",
-    "build": 30,
+    "version": "1.2.1",
+    "build": 31,
     "releaseDate": "2026-11-04",
-    "changelog": "OmniLaunch Gamer Edition v1.2.0 (Build 30) :\n- Compteur de FPS In-Game haute precision : resolution dynamique de la colonne MsBetweenPresents de PresentMon (mesure reelle des trames a la microseconde).\n- Affichage plein ecran debloque : suppression du flag WS_EX_TOOLWINDOW et re-assertion topmost continue toutes les 100 ms (SWP_SHOWWINDOW).\n- Ciblage automatique du processus 3D principal par occupation RAM (moteur 16 Go vs lanceur 58 Mo).\n- Double source API GitHub temps reel pour des mises a jour directes sans delai CDN.",
+    "changelog": "OmniLaunch Gamer Edition v1.2.1 (Build 31) :\n- Telemetrie FPS exacte : suppression du fallback 144 Hz fixe, synchronisation reelle aux microsecondes sur Intel PresentMon ETW pour tous les framerates (30, 60, 75, 90, 120, 144, 165, 240 FPS).\n- Maintien overlay plein ecran 64-bit : typage strict HWND_TOPMOST (-1) et SetWindowLongPtrW pour empecher le masquage par les jeux en plein ecran.\n- Recuperation dynamique PresentMon avec elevation automatique si acces refuse sans redemarrage requis.\n- Transition instantanee v1.2.1 detectee par toutes les versions precedentes (Build 25, 27, 28, 29, 30).",
     "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "sha256": "4036BAF788C14B3ADBD4B93D2AC342CBC1C2E6539A7F06010FFFDD1E3BFE5415",
+    "sha256": "E38D2DCC8B9CA006D7872355DCB88520D3D3206D48F5823ECAC1A3350153A9F1",
     "mandatory": false
 }
