@@ -1,0 +1,44 @@
+================================================================================
+           OMNILAUNCH - GUIDE DU SYSTÈME DE MISE À JOUR GITHUB RELEASES
+================================================================================
+
+Ce dossier 'dev/' contient tous les outils professionnels pour compiler,
+packager, sécuriser et publier des mises à jour en ligne sur GitHub.
+
+--------------------------------------------------------------------------------
+1. ÉTAPES POUR PUBLIER UNE NOUVELLE MISE À JOUR
+--------------------------------------------------------------------------------
+
+Étape 1 : Mettre à jour 'version.json' (dans ce dossier)
+          - Incrémentez "version" (ex: "1.1.1") et "build".
+          - Rédigez votre changelog dans "changelog".
+
+Étape 2 : Double-cliquez sur 'COMPILER_RELEASE.bat'
+          - Il compile le code en mode autonome avec PyInstaller.
+          - Il crée l'archive 'OmniLaunch.zip' dans 'Distribution_MisesAJour/'.
+          - Il calcule automatiquement le hachage SHA-256 et l'injecte dans 'version.json'.
+
+Étape 3 : Double-cliquez sur 'PUBLIER_MISE_A_JOUR.bat'
+          - Il utilise Git (ou GitHub Desktop) automatiquement.
+          - Il pousse le manifeste 'version.json' et l'archive 'OmniLaunch.zip'
+            sur votre dépôt GitHub 'baffert/OmniLaunch-Releases'.
+
+--------------------------------------------------------------------------------
+2. COMMENT LE CLIENT OMNILAUNCH REÇOIT LA MISE À JOUR
+--------------------------------------------------------------------------------
+
+1. Au démarrage ou via l'onglet 'Paramètres' :
+   OmniLaunch interroge en arrière-plan sans ralentir l'interface le fichier :
+   https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/version.json
+
+2. Dès qu'une version supérieure est détectée :
+   - Une notification s'affiche sur le HUD.
+   - L'utilisateur peut ouvrir la fenêtre de mise à jour, lire le Changelog
+     et voir l'empreinte cryptographique SHA-256.
+
+3. En cliquant sur 'Télécharger & Installer' :
+   - Le téléchargement s'effectue avec barre de progression en temps réel.
+   - L'empreinte SHA-256 est vérifiée à 100% contre toute corruption.
+   - Le script 'apply_update.bat' est déclenché : il attend l'arrêt de l'application,
+     déploie les nouveaux fichiers et relance OmniLaunch automatiquement.
+================================================================================
