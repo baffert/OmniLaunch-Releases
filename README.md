@@ -4,7 +4,7 @@
 
 <br>
 
-[![Version](https://img.shields.io/badge/Version-1.2.0_Gamer_Edition-00f0ff?style=for-the-badge&logo=rocket)](https://github.com/baffert/OmniLaunch-Releases)
+[![Version](https://img.shields.io/badge/Version-1.2.0_(Build_25)-00f0ff?style=for-the-badge&logo=rocket)](https://github.com/baffert/OmniLaunch-Releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows_10_|_11-9d4edd?style=for-the-badge&logo=windows)](https://github.com/baffert/OmniLaunch-Releases)
 [![Performance](https://img.shields.io/badge/Performance-60_FPS_Virtual_Grid-10b981?style=for-the-badge&logo=speedtest)](https://github.com/baffert/OmniLaunch-Releases)
 [![Security](https://img.shields.io/badge/Security-SHA--256_Verified-38ef7d?style=for-the-badge&logo=shield)](https://github.com/baffert/OmniLaunch-Releases)
@@ -41,7 +41,7 @@
 | Version | Type | Fichier | Taille | Hash SHA-256 |
 | :--- | :--- | :--- | :--- | :--- |
 | **v1.2.0** | 📦 **Installateur 1-Clic** | [`OmniLaunch_v1.2.0_Installateur.zip`](https://github.com/baffert/OmniLaunch-Releases/releases/download/v1.2.0/OmniLaunch_v1.2.0_Installateur.zip) | ~40 Mo | `Voir version.json` |
-| **v1.2.0** | ⚡ **Archive Portable** | [`OmniLaunch.zip`](https://github.com/baffert/OmniLaunch-Releases/releases/download/v1.2.0/OmniLaunch.zip) | ~40 Mo | `15B5C6F06C047469FADABB78EAE8A740111F89F6EC8B536D4D19AE8515C92CF1` |
+| **v1.2.0 (Build 25)** | ⚡ **Archive Portable** | [`OmniLaunch.zip`](https://github.com/baffert/OmniLaunch-Releases/releases/download/v1.2.0/OmniLaunch.zip) | ~40 Mo | `D661C96E189F48E017453D0AEA3058B723E99E7E9F1A9FB4F51AC2F110B79942` |
 
 ---
 

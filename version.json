@@ -1,9 +1,9 @@
 {
     "version": "1.2.0",
-    "build": 20,
+    "build": 25,
     "releaseDate": "2026-11-04",
-    "changelog": "OmniLaunch Gamer Edition v1.2.0 :\n- Compteur de FPS et Frametime (ms) en jeu haute précision avec technologie officielle Intel PresentMon (ETW) & DWM.\n- 100% Anti-Cheat Safe (EAC, BattlEye, Vanguard, Ricochet).\n- Overlay HUD Gamer transparent, click-through (aucune perte de focus ni gêne de visée en jeu).\n- Nouveaux réglages dans Paramètres : activation, sélection de la position sur écran (4 coins), affichage du frametime et des métriques CPU/RAM du jeu.\n- Bouton d aperçu direct de l Overlay dans les Paramètres.\n- Optimisations de fluidité et compilation autonome.",
+    "changelog": "OmniLaunch Gamer Edition v1.2.0 (Build 25) :\n- Correctif majeur du moteur de mise a jour atomique : fermeture forcee des processus d arriere-plan et extraction infaillible par robocopy/xcopy.\n- Prise en charge complete des increments de BUILD pour les correctifs rapides.\n- Persistance absolue de la base de donnees et des jaquettes.\n- Compteur de FPS PresentMon ETW haute precision et couverture jaquettes 100%.",
     "downloadUrl": "https://github.com/baffert/OmniLaunch-Releases/releases/download/v1.2.0/OmniLaunch.zip",
-    "sha256": "15B5C6F06C047469FADABB78EAE8A740111F89F6EC8B536D4D19AE8515C92CF1",
+    "sha256": "D661C96E189F48E017453D0AEA3058B723E99E7E9F1A9FB4F51AC2F110B79942",
     "mandatory": false
 }
