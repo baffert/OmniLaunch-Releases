@@ -1,10 +1,10 @@
 {
   "version": "1.2.7",
-  "build": 38,
-  "releaseDate": "2026-11-04",
-  "release_date": "2026-11-04",
+  "build": 39,
+  "releaseDate": "2026-11-05",
+  "release_date": "2026-11-05",
   "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
   "download_url": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-  "sha256": "87E05F7067B03146E603BB8F9E47C082EA3BA18F2CC562AEF045F450215E8222",
-  "changelog": "Build 38: Moteur universel de capture FPS ETW avec synchronisation en temps réel sans blocage, auto-verrouillage automatique sur le moteur 3D DirectX/Vulkan réel (résolution multi-processus comme BeamNG.drive), et affichage dynamique de l'utilisation CPU et RAM."
+  "sha256": "789B29778308FD8152A3376C05E405F603F919980D7D7E8931AE01CBCF9EF82B",
+  "changelog": "Build 39: Moteur FPS ETW universel ultra-robuste avec demarrage systematique PresentMon, resolution instantanee des jeux 3D multi-processus, metriques v1 standard et repli dynamique fluide DWM."
 }
