@@ -1,10 +1,10 @@
 {
-  "version": "1.2.7",
-  "build": 39,
+  "version": "1.2.8",
+  "build": 40,
   "releaseDate": "2026-11-05",
   "release_date": "2026-11-05",
   "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
   "download_url": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-  "sha256": "789B29778308FD8152A3376C05E405F603F919980D7D7E8931AE01CBCF9EF82B",
-  "changelog": "Build 39: Moteur FPS ETW universel ultra-robuste avec demarrage systematique PresentMon, resolution instantanee des jeux 3D multi-processus, metriques v1 standard et repli dynamique fluide DWM."
+  "sha256": "3F2431D821A184F975CE420697A0F8D1060673F3D5D86191C7EFF9BF399DBC64",
+  "changelog": "Build 40: Synchronisation native temps reel du compteur FPS (ETW PresentMon direct streaming), reactivite immediate au premier clic sans micro-latence ni perte d'evenement, annulation propre des animations concurrentes et support du double-clic de lancement."
 }
