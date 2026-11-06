@@ -1,10 +1,10 @@
 {
-  "version": "1.2.8",
-  "build": 40,
-  "releaseDate": "2026-11-05",
-  "release_date": "2026-11-05",
+  "version": "1.2.9",
+  "build": 41,
+  "releaseDate": "2026-11-06",
+  "release_date": "2026-11-06",
   "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
   "download_url": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-  "sha256": "3F2431D821A184F975CE420697A0F8D1060673F3D5D86191C7EFF9BF399DBC64",
-  "changelog": "Build 40: Synchronisation native temps reel du compteur FPS (ETW PresentMon direct streaming), reactivite immediate au premier clic sans micro-latence ni perte d'evenement, annulation propre des animations concurrentes et support du double-clic de lancement."
+  "sha256": "D8271A26F8D34903C6EACAB431678028EF77C48512D73E3FDCE223CE9E9964E4",
+  "changelog": "Build 41 (Mise a niveau majeure) : 1) Refonte ergonomique de la page Parametres en cartes visuelles glassmorphism. 2) Reglages en direct de l'Overlay HUD (opacite et taille/dimensions ajustables). 3) Packaging client 100% vierge sans aucune donnee personnelle. 4) Game Booster parametrable et persistant. 5) Raccourcis in-game globaux Win32 (Ctrl+Shift+O, F11) et navigation manette XInput."
 }
