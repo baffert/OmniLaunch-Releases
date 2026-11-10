@@ -1,10 +1,10 @@
-﻿{
-    "version":  "1.3.0",
-    "build":  42,
-    "releaseDate":  "2026-11-10",
-    "release_date":  "2026-11-10",
-    "downloadUrl":  "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "download_url":  "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
-    "sha256":  "07e703dd74e00e568813c7e4a246cd005146557ae727f6e0a4899f69e7994887",
-    "changelog":  "Build 42 (Mise a niveau majeure) : 1) Refonte cinematique du Hero Showcase avec degrade de fondu progressif sans coupure. 2) Splash Screen Gamer 60 FPS ultra-fluide avec embleme vectoriel cyber neon et pulsation en direct. 3) Reequilibrage ergonomique de la Vue Liste et badges de plateformes styles. 4) Nouvelle ergonomie des Bons Plans (Jeux Gratuits) avec bannieres au premier plan et boutons d\u0027action directs. 5) Tableau de bord Statistiques enrichi avec module Insights Joueur et Hall of Fame proportionnel. 6) Telemetrie dynamique et harmonisation visuelle complete."
+{
+    "version": "1.3.0",
+    "build": 42,
+    "releaseDate": "2026-11-10",
+    "release_date": "2026-11-10",
+    "downloadUrl": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
+    "download_url": "https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip",
+    "sha256": "07e703dd74e00e568813c7e4a246cd005146557ae727f6e0a4899f69e7994887",
+    "changelog": "Build 42 (Mise a niveau majeure) : 1) Refonte cinematique du Hero Showcase avec degrade de fondu progressif sans coupure. 2) Splash Screen Gamer 60 FPS ultra-fluide avec embleme vectoriel cyber neon et pulsation en direct. 3) Reequilibrage ergonomique de la Vue Liste et badges de plateformes styles. 4) Nouvelle ergonomie des Bons Plans (Jeux Gratuits) avec bannieres au premier plan et boutons d'action directs. 5) Tableau de bord Statistiques enrichi avec module Insights Joueur et Hall of Fame proportionnel. 6) Telemetrie dynamique et harmonisation visuelle complete."
 }
