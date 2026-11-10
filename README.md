@@ -16,7 +16,7 @@
 
 <br>
 
-[📥 **Télécharger l'Installateur Automatique (v1.3.0)**](https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch_v1.3.0_Installateur.zip) &nbsp;&nbsp;•&nbsp;&nbsp; [⚡ **Télécharger la Version Portable (v1.3.0)**](https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip)
+[📥 **Télécharger l'Installateur Automatique (v1.3.0)**](https://github.com/baffert/OmniLaunch-Releases/releases/download/v1.3.0/OmniLaunch_v1.3.0_Installateur.zip) &nbsp;&nbsp;•&nbsp;&nbsp; [⚡ **Télécharger la Version Portable (v1.3.0)**](https://github.com/baffert/OmniLaunch-Releases/releases/download/v1.3.0/OmniLaunch.zip)
 
 <br>
 
@@ -42,21 +42,21 @@
 
 | Version | Type | Fichier | Taille | Hash SHA-256 |
 | :--- | :--- | :--- | :--- | :--- |
-| **v1.3.0 (Build 42)** | 📦 **Installateur 1-Clic** | [`OmniLaunch_v1.3.0_Installateur.zip`](https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch_v1.3.0_Installateur.zip) | ~55 Mo | `Voir version.json` |
-| **v1.3.0 (Build 42)** | ⚡ **Archive Portable** | [`OmniLaunch.zip`](https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip) | ~55 Mo | `07e703dd74e00e568813c7e4a246cd005146557ae727f6e0a4899f69e7994887` |
+| **v1.3.0 (Build 42)** | 📦 **Installateur 1-Clic** | [`OmniLaunch_v1.3.0_Installateur.zip`](https://github.com/baffert/OmniLaunch-Releases/releases/download/v1.3.0/OmniLaunch_v1.3.0_Installateur.zip) | ~55 Mo | `Voir version.json` |
+| **v1.3.0 (Build 42)** | ⚡ **Archive Portable** | [`OmniLaunch.zip`](https://github.com/baffert/OmniLaunch-Releases/releases/download/v1.3.0/OmniLaunch.zip) | ~55 Mo | `07e703dd74e00e568813c7e4a246cd005146557ae727f6e0a4899f69e7994887` |
 
 ---
 
 ## 🚀 Guide d'Installation
 
 ### Option 1 : Avec l'Installateur (Recommandé)
-1. Téléchargez [`OmniLaunch_v1.3.0_Installateur.zip`](https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch_v1.3.0_Installateur.zip).
+1. Téléchargez [`OmniLaunch_v1.3.0_Installateur.zip`](https://github.com/baffert/OmniLaunch-Releases/releases/download/v1.3.0/OmniLaunch_v1.3.0_Installateur.zip).
 2. Faites un clic droit > **Extraire tout**.
 3. Lancez **`Installer_OmniLaunch.bat`**.
 4. L'assistant déploie l'application, crée le raccourci sur votre Bureau et dans le Menu Démarrer avec l'icône officielle.
 
 ### Option 2 : Version Portable (Sans Installation)
-1. Téléchargez [`OmniLaunch.zip`](https://raw.githubusercontent.com/baffert/OmniLaunch-Releases/main/OmniLaunch.zip).
+1. Téléchargez [`OmniLaunch.zip`](https://github.com/baffert/OmniLaunch-Releases/releases/download/v1.3.0/OmniLaunch.zip).
 2. Décompressez l'archive où vous voulez (sur votre PC ou sur une clé USB).
 3. Double-cliquez sur **`OmniLaunch.exe`** ou **`Lancer_OmniLaunch.bat`** pour jouer immédiatement.
 
